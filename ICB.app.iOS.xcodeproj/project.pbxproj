@@ -14,6 +14,7 @@
 		BA98149E2ADEB47E00E0029F /* ICB_app_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98149D2ADEB47E00E0029F /* ICB_app_iOSTests.swift */; };
 		BA9814A82ADEB47E00E0029F /* ICB_app_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9814A72ADEB47E00E0029F /* ICB_app_iOSUITests.swift */; };
 		BA9814AA2ADEB47E00E0029F /* ICB_app_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9814A92ADEB47E00E0029F /* ICB_app_iOSUITestsLaunchTests.swift */; };
+		BA9814B72ADEBDA500E0029F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9814B62ADEBDA500E0029F /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BA9814A32ADEB47E00E0029F /* ICB.app.iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICB.app.iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9814A72ADEB47E00E0029F /* ICB_app_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICB_app_iOSUITests.swift; sourceTree = "<group>"; };
 		BA9814A92ADEB47E00E0029F /* ICB_app_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICB_app_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA9814B62ADEBDA500E0029F /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				BA98148C2ADEB47D00E0029F /* ICB_app_iOSApp.swift */,
+				BA9814B62ADEBDA500E0029F /* WebView.swift */,
 				BA98148E2ADEB47D00E0029F /* ContentView.swift */,
 				BA9814902ADEB47E00E0029F /* Assets.xcassets */,
 				BA9814922ADEB47E00E0029F /* Preview Content */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9814B72ADEBDA500E0029F /* WebView.swift in Sources */,
 				BA98148F2ADEB47D00E0029F /* ContentView.swift in Sources */,
 				BA98148D2ADEB47D00E0029F /* ICB_app_iOSApp.swift in Sources */,
 			);
