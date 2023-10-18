@@ -15,6 +15,7 @@
 		BA9814A82ADEB47E00E0029F /* ICB_app_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9814A72ADEB47E00E0029F /* ICB_app_iOSUITests.swift */; };
 		BA9814AA2ADEB47E00E0029F /* ICB_app_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9814A92ADEB47E00E0029F /* ICB_app_iOSUITestsLaunchTests.swift */; };
 		BA9814B72ADEBDA500E0029F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9814B62ADEBDA500E0029F /* WebView.swift */; };
+		BA9814B92ADFE7B300E0029F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA9814B82ADFE7B300E0029F /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		BA9814A72ADEB47E00E0029F /* ICB_app_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICB_app_iOSUITests.swift; sourceTree = "<group>"; };
 		BA9814A92ADEB47E00E0029F /* ICB_app_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICB_app_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BA9814B62ADEBDA500E0029F /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		BA9814B82ADFE7B300E0029F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				BA98148E2ADEB47D00E0029F /* ContentView.swift */,
 				BA9814902ADEB47E00E0029F /* Assets.xcassets */,
 				BA9814922ADEB47E00E0029F /* Preview Content */,
+				BA9814B82ADFE7B300E0029F /* Info.plist */,
 			);
 			path = ICB.app.iOS;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			files = (
 				BA9814942ADEB47E00E0029F /* Preview Assets.xcassets in Resources */,
 				BA9814912ADEB47E00E0029F /* Assets.xcassets in Resources */,
+				BA9814B92ADFE7B300E0029F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,11 +427,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ICB.app.iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = XVXZ2N729S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iCoachBasketball;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,11 +459,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ICB.app.iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = XVXZ2N729S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iCoachBasketball;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -500,6 +512,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XVXZ2N729S;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
@@ -522,6 +535,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.icb.ICB-app-iOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -535,10 +551,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XVXZ2N729S;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.icb.ICB-app-iOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
